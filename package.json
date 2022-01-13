@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p 3003"
+    "start": "node dist/main.js"
   },
   "dependencies": {
     "@nestjs/common": "^7.6.15",
